@@ -12,3 +12,14 @@ fi
 
 # Customize to your needs...
 
+# Aliases
+alias m='mvim'
+
+# Set up chruby
+source /usr/local/share/chruby/chruby.sh
+source /usr/local/share/chruby/auto.sh
+
+chruby ruby-2.1.1
+
+# Set up direnv
+eval "$(direnv hook zsh)"
